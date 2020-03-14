@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    RED.nodes.registerType('dualShock',{
+        category: 'input',
+        color: '#4d94ff',
+        defaults: {
+            name: {value:""}            
+        },
+        inputs:1,
+        outputs:1,
+        icon: "font-awesome/fa-gamepad",
+        label: function() {
+            return this.name||"dualShock";
+        }
+    });
+</script>
+
+
+<script type="text/x-red" data-template-name="dualShock">
+
+      <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="dualShock">
+    <p>A simple node that lists the connected HID Devices ans return them as msg.payload</p>
+</script>
+
+
+
+

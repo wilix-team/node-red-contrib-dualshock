@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Aloyan Dmitry (WiliX)",
+    "email": "root@wilix.org"
+  },
+  "dependencies": {
+    "node-hid": "^1.2.0"
+  },
+  "description": "Node-RED node for PlayStation Dualshock 4 gamepad",
+  "devDependencies": {},
+  "homepage": "https://github.com/CANDY-LINE/node-red-contrib-generic-ble#readme",
+  "keywords": [
+    "node-red",
+    "bluetooth",
+    "hid",
+    "dualshock",
+    "PlayStatin",
+    "gamepad",
+    "ps4",
+    "ps3",
+    "controller",
+    "gamepad",
+    "dualshock",
+    "dualshock3",
+    "dualshock4",
+    "dual shock 3",
+    "dual shock 4"
+  ],
+  "license": "MIT",
+  "name": "node-red-contrib-dualshock",
+  "node-red": {
+    "nodes": {
+      "dualshock": "dualshock/dualshock.js"
+    }
+  },
+  "version": "0.0.1"
+}
