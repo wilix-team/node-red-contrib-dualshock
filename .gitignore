@@ -1,3 +1,4 @@
 node_modules
 node-dualshock-controller-master
 *.zip
+.DS_store
